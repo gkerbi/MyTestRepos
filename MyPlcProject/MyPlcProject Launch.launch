@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="at.bachmann.plc.launch.launchPlcModType">
+    <stringAttribute key="configFile" value=""/>
+    <stringAttribute key="debugTask" value="DefaultTask"/>
+    <booleanAttribute key="installPermanently" value="false"/>
+    <stringAttribute key="installationMode" value="TEMPORARY_KEEP_CONFIG"/>
+    <intAttribute key="lineNumber" value="0"/>
+    <mapAttribute key="moduleConfig"/>
+    <stringAttribute key="moduleFilename" value="bin/MyPlcPro.m"/>
+    <intAttribute key="moduleIdentity" value="0"/>
+    <stringAttribute key="moduleInstanceName" value="MYPLCPRO"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/MyPlcProject"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <booleanAttribute key="overrideConfig" value="false"/>
+    <stringAttribute key="profileName" value=""/>
+    <stringAttribute key="projectName" value="MyPlcProject"/>
+    <booleanAttribute key="sendEOI" value="true"/>
+    <stringAttribute key="sequence" value="RUN"/>
+    <stringAttribute key="targetName" value="/My Devices/M1.vxworks"/>
+    <booleanAttribute key="targetSelectionOnLaunch" value="false"/>
+    <stringAttribute key="visualizationNames" value=""/>
+</launchConfiguration>
