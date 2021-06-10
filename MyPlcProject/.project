@@ -31,5 +31,20 @@
 			<type>2</type>
 			<locationURI>bundleplclib://at.bachmann.plc/StandardFunctions</locationURI>
 		</link>
+		<link>
+			<name>libs/Mio_plc.plclib</name>
+			<type>2</type>
+			<locationURI>PLC_LIB_LOC/libs/Mio_plc.lib</locationURI>
+		</link>
+		<link>
+			<name>libs/Standard.plclib</name>
+			<type>2</type>
+			<locationURI>PLC_LIB_LOC/libs/Standard.lib</locationURI>
+		</link>
+		<link>
+			<name>libs/Util_plc.plclib</name>
+			<type>2</type>
+			<locationURI>PLC_LIB_LOC/libs/Util_plc.lib</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>
