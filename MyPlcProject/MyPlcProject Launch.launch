@@ -20,7 +20,7 @@
     <stringAttribute key="projectName" value="MyPlcProject"/>
     <booleanAttribute key="sendEOI" value="true"/>
     <stringAttribute key="sequence" value="RUN"/>
-    <stringAttribute key="targetName" value="/My Devices/M1.vxworks"/>
+    <stringAttribute key="targetName" value="/My Devices/GEKE.vxworks"/>
     <booleanAttribute key="targetSelectionOnLaunch" value="false"/>
     <stringAttribute key="visualizationNames" value=""/>
 </launchConfiguration>
