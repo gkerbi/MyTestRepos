@@ -1,0 +1,11 @@
+Mon Jun 14 10:56:35 CEST 2021	0 ms	org.eclipse.xtext.builder.BuilderParticipant
+Mon Jun 14 10:56:35 CEST 2021	0 ms	at.bachmann.cm.compdesc.c.ui.build.CcdBuilderParticipant
+Mon Jun 14 10:56:35 CEST 2021	2 ms	at.bachmann.plc.common.ui.validation.markers.HardwareMappingValidator
+Mon Jun 14 10:56:35 CEST 2021	1 ms	org.eclipse.xtext.builder.BuilderParticipant
+Mon Jun 14 10:56:35 CEST 2021	0 ms	org.eclipse.xtext.builder.BuilderParticipant
+Mon Jun 14 10:56:35 CEST 2021	0 ms	at.bachmann.plc.builder.EmptyBuilderParticipant
+Mon Jun 14 10:56:35 CEST 2021	0 ms	at.bachmann.plc.builder.EmptyBuilderParticipant
+Mon Jun 14 10:56:35 CEST 2021	17 ms	at.bachmann.plc.st.ui.uniqueness.ShadowingGlobalValidator
+Mon Jun 14 10:56:35 CEST 2021	0 ms	at.bachmann.plc.common.indexing.postindexing.PostIndexer
+Mon Jun 14 10:56:35 CEST 2021	1 ms	org.eclipse.xtext.builder.BuilderParticipant
+Mon Jun 14 10:56:35 CEST 2021	70 ms	at.bachmann.plc.st.ui.uniqueness.UniquenessValidator

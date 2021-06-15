@@ -1,0 +1,9 @@
+*.*
+!.gitignore
+!/FunctionBlocks/
+!/Functions/
+!/OSCAT/
+!/Enum/
+!/Structures/
+!/Constants/
+!*.js

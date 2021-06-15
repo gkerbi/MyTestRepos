@@ -1,0 +1,8 @@
+TYPE enum_StateStarting :(
+	e_startInit:=0,
+	e_startDcBreaker,
+	e_startBatPrecharge,
+	e_startDrive,
+	e_startingDone,
+	e_startingFailed);
+END_TYPE

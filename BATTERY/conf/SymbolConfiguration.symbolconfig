@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<symbolconfig:symbol-table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:symbolconfig="http://www.bachmann.at/plc/configuration/symbolconfig" gvlDefaultFlag="YYYYY" pouDefaultFlag="NNNNN" processImageDefaultFlag="NNNNN" libGvlDefaultFlag="NNNNN">
+  <symbolconfig:libs>
+    <children xsi:type="symbolconfig:LibContainer" name="Mio_plc">
+      <children xsi:type="symbolconfig:LibGvl" flags="NNNNN" name="Globale_Variablen">
+        <symbolconfig:variable flags="NNNNN" name="MIO_PLC_LIBVER"/>
+      </children>
+    </children>
+    <children xsi:type="symbolconfig:LibContainer" name="Smi_plc">
+      <children xsi:type="symbolconfig:LibGvl" flags="NNNNN" name="Error_Codes"/>
+      <children xsi:type="symbolconfig:LibGvl" flags="NNNNN" name="Global_Constants"/>
+      <children xsi:type="symbolconfig:LibGvl" flags="NNNNN" name="Library_Info">
+        <symbolconfig:variable flags="NNNNN" name="SMI_PLC_LIBVER"/>
+      </children>
+    </children>
+    <children xsi:type="symbolconfig:LibContainer" name="Standard_1131">
+      <children xsi:type="symbolconfig:LibGvl" flags="NNNNN" name="Global%20Variables%200">
+        <symbolconfig:variable flags="NNNNN" name="STANDARD_1131_LIBVER"/>
+      </children>
+    </children>
+    <children xsi:type="symbolconfig:LibContainer" name="Util_plc">
+      <children xsi:type="symbolconfig:LibGvl" flags="NNNNN" name="Globale_Variablen">
+        <symbolconfig:variable flags="NNNNN" name="UTIL_PLC_LIBVER"/>
+      </children>
+    </children>
+  </symbolconfig:libs>
+  <symbolconfig:processimage/>
+  <symbolconfig:pousAndGvls>
+    <children xsi:type="symbolconfig:container" name="PRG">
+      <children xsi:type="symbolconfig:pou" flags="YYYYY" name="PRG_IAS"/>
+      <children xsi:type="symbolconfig:pou" flags="YYYYY" name="PRG_HMI"/>
+    </children>
+    <children xsi:type="symbolconfig:container" flags="YYYYY" name="Variables"/>
+  </symbolconfig:pousAndGvls>
+</symbolconfig:symbol-table>

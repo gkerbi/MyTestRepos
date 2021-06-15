@@ -1,0 +1,6 @@
+
+-------------------------------------------------------------------------------------------------------------------------
+Task 'AbstractParser.parse' took 23791ms (4581 measurements).
+Task 'installing proxies (AbstractCleaningLinker.linkModel)' took 1214ms (4581 measurements).
+Task 'ResourceValidatorImpl.validation' took 6566ms (405 measurements).
+-------------------------------------------------------------------------------------------------------------------------

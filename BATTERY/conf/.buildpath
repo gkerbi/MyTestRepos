@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<buildpath:BuildPath xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:buildpath="http://www.bachmann.at/plc/configuration/buildPath">
+  <exclusions>FunctionBlock/BatteryControl/SoC_Control.st</exclusions>
+  <exclusions>Structures/FB_Struct/s_AI_Alarms.dt</exclusions>
+  <exclusions>PRG/BATTERY/Battery_temp.st</exclusions>
+  <exclusions>FunctionBlock/States/StateInit.st</exclusions>
+  <exclusions>FunctionBlock/States/StateRunning.st</exclusions>
+  <exclusions>FunctionBlock/States/StateStarting.st</exclusions>
+  <exclusions>FunctionBlock/States/StateStopped.st</exclusions>
+  <exclusions>FunctionBlock/States/StateStopping.st</exclusions>
+  <exclusions>FunctionBlock/StateFunctions/fb_CorvusBMS.st</exclusions>
+  <exclusions>FunctionBlock/BatteryControl/Battery_Control.st</exclusions>
+  <exclusions>FunctionBlock/BatteryControl/Battery_Protection.st</exclusions>
+  <exclusions>FunctionBlock/StateFunctions/fb_DcBreakerCtrl.st</exclusions>
+  <exclusions>Structures/State</exclusions>
+  <exclusions>FunctionBlock/StateFunctions/fb_ModeControl.st</exclusions>
+  <exclusions>Commode/FunctionBlocks/fb_GM260_eng.st</exclusions>
+  <exclusions>Commode/FunctionBlocks/fb_GMP232_eng.st</exclusions>
+  <exclusions>Commode/FunctionBlocks/fb_CsvWrite.st</exclusions>
+</buildpath:BuildPath>

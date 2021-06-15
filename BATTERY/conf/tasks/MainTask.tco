@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<TaskConfiguration:Task xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TaskConfiguration="http://www.bachmann.info/TaskConfiguration" priority="93">
+  <type xsi:type="TaskConfiguration:CyclicType">
+    <interval value="50"/>
+    <ptp>
+      <interval/>
+    </ptp>
+  </type>
+  <watchdog>
+    <interval/>
+  </watchdog>
+  <programs>
+    <program href="#ref:PRG_Alarms"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_Functions"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_HW"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_Operation"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_Protections"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_StateMain"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_AI.Settings"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_AO.Settings"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_DI.Settings"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_DO.Settings"/>
+  </programs>
+</TaskConfiguration:Task>

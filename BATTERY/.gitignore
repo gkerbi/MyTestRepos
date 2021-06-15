@@ -1,0 +1,5 @@
+bin/
+*.launch
+/.compile/
+/.src/
+/fb_LastCommit.st

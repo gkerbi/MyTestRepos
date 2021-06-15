@@ -1,0 +1,36 @@
+ab8ce56 	 Yngve Solbakken 	 2018-10-09 14:55:57 +0200 	 Work on HMI settings (work in progress)
+005ba9e 	 Yngve Solbakken 	 2018-10-08 14:43:34 +0200 	 Updated HMI-information and HW-sections
+a73121e 	 Yngve Solbakken 	 2018-10-04 11:48:27 +0200 	 Updated task cyvle time from 10ms to more.
+4b0e438 	 Yngve Solbakken 	 2018-10-04 10:58:25 +0200 	 Merge branch 'BATTERYv2' into 1-offline-battery-protection
+a0b6270 	 Yngve Solbakken 	 2018-10-04 10:57:37 +0200 	 Tidied up unused variables
+594963f 	 Yngve Solbakken 	 2018-10-03 15:48:12 +0200 	 Changed battery communication timeout from "any" to "all", delay now 5m
+c27a5eb 	 Yngve Solbakken 	 2018-10-03 15:36:28 +0200 	 Merge branch '1-offline-battery-protection' of git@Hav-App02:nes/BATTERY.git into 1-offline-battery-protection
+6956fc9 	 Yngve Solbakken 	 2018-10-03 15:12:31 +0200 	 #1 Added limits for battery protection. renamed old constants.
+1801ac3 	 Yngve Solbakken 	 2018-10-03 15:12:31 +0200 	 Added limits for battery protection. renamed old constants.
+07c72dd 	 Yngve Solbakken 	 2018-10-03 14:02:59 +0200 	 Added SoC check for offline packs
+2a99180 	 Yngve Solbakken 	 2018-10-03 12:15:01 +0200 	 #1 Started implementation: gather cell voltage/temperature.
+e34b7e5 	 Yngve Solbakken 	 2018-10-03 10:35:17 +0200 	 Added revlog.txt with formatted log output for excel use
+b6a112d 	 Yngve.Solbakken 	 2018-10-02 14:02:17 +0200 	 Work with reference handling etc
+73653fa 	 Yngve.Solbakken 	 2018-10-02 13:52:57 +0200 	 updated comment
+90b1007 	 Yngve.Solbakken 	 2018-10-02 13:52:33 +0200 	 Added new version of incdec fb from eirik
+2097d48 	 Yngve.Solbakken 	 2018-10-02 13:52:13 +0200 	 removed whitespace in comment
+f313ccb 	 Yngve.Solbakken 	 2018-10-02 13:51:22 +0200 	 Deleted unused function blocks
+c511cc5 	 Yngve.Solbakken 	 2018-10-01 09:39:59 +0200 	 Added structs from QG, optimized statemachine. Renamed FBs
+0c7ee37 	 Yngve.Solbakken 	 2018-09-28 13:22:39 +0200 	 Deleted old code, prepared under/over volt commands in PRG_Drive
+9835a50 	 Yngve.Solbakken 	 2018-09-28 13:11:36 +0200 	 removed global FirstCycle, replaced with local variable.
+a6eb790 	 Yngve.Solbakken 	 2018-09-28 13:06:52 +0200 	 Updated task configuration with fast/main/slow tasks.
+48c6920 	 Yngve.Solbakken 	 2018-09-27 11:09:12 +0200 	 HMI work
+4fbd645 	 Yngve.Solbakken 	 2018-09-27 11:08:04 +0200 	 Added battery protection and power save mode
+05cdd00 	 Yngve.Solbakken 	 2018-09-27 11:07:04 +0200 	 Updated global settings
+838be7f 	 Yngve.Solbakken 	 2018-09-27 11:06:18 +0200 	 Added new enums for control place and control mode
+d7d368a 	 Yngve.Solbakken 	 2018-09-27 11:05:38 +0200 	 Updated corvus communication
+c81eea9 	 Yngve.Solbakken 	 2018-09-27 11:04:35 +0200 	 Added OSCAT function. Deleted redundant function.
+89261e7 	 Yngve Solbakken 	 2018-09-25 14:51:37 +0200 	 Further work on v2; PRG_HMI, fb_Controlplace/Controlmode  etc.
+13626f9 	 Yngve Solbakken 	 2018-09-24 16:00:01 +0200 	 Updated .gitignore (*.launch), updated task and moved ias ctrllocation
+23cccc8 	 Yngve Solbakken 	 2018-09-24 15:59:13 +0200 	 Re-added lib files
+f5bcda1 	 Yngve Solbakken 	 2018-09-24 15:58:51 +0200 	 Further work on implementing IAS communication signals.
+09ede3d 	 Yngve Solbakken 	 2018-09-24 13:47:44 +0200 	 Added IAS variables according to "NES-123-028-01 ModbusInterface, Quadro Master Rev 7"
+bb991aa 	 Yngve Solbakken 	 2018-09-18 14:56:27 +0200 	 Restructured program - it is now building without errors.
+9612e14 	 Yngve Solbakken 	 2018-09-13 15:34:22 +0200 	 New file- and folder names. Code in ny home
+8f69d6f 	 Yngve Solbakken 	 2018-09-13 08:40:29 +0200 	 Initial commit of DCDC5STR before making adjustments
+32eff7b 	 Yngve Solbakken 	 2018-09-13 07:57:06 +0200 	 Add README.md

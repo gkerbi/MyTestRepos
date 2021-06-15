@@ -1,0 +1,41 @@
+VAR_GLOBAL
+
+	RestoreAllToDefault: BOOL; (*Use with care*)
+
+	(*Fault words will trip the drive and interlock restart.*)
+	FaultWord: ARRAY[1..20] OF INT;
+	
+	(*Alarms will simply nag*)
+	AlarmWord: ARRAY[1..32] OF INT;
+	
+	(*Alarm words with non-latched inputs to the hmi alarm list*)
+	hmi_AlarmWord: ARRAY[1..32] OF INT;
+	hmi_FaultWord: ARRAY[1..10] OF INT;
+	
+	(*HMI Arrays*)
+	hmi_AiPV: 				ARRAY[1..cnst_num_ai] OF str_AiProcess; (*Array for easier bulk handling of I/O in HMI*)
+	hmi_AiSetup: 			ARRAY[1..cnst_num_ai] OF str_AiSetup; (*Array for easier bulk handling of I/O in HMI*)
+	hmi_AiWriteSetup: 		ARRAY[1..cnst_num_ai] OF BOOL; (*Write changes from HMI into retain memory*)
+	hmi_RestoreDefault_ai: 	ARRAY[1..cnst_num_ai] OF BOOL; (*Restore default values from "Settings"-action*)
+
+	hmi_AoPV: 				ARRAY[1..cnst_num_ao] OF str_AoProcess; (*Array for easier bulk handling of I/O in HMI*)
+	hmi_AoSetup: 			ARRAY[1..cnst_num_ao] OF str_AoSetup; (*Array for easier bulk handling of I/O in HMI*)
+	hmi_AoWriteSetup: 		ARRAY[1..cnst_num_ao] OF BOOL; (*Write changes from HMI into retain memory*)
+	hmi_RestoreDefault_ao: 	ARRAY[1..cnst_num_ao] OF BOOL; (*Restore default values from "Settings"-action*)
+
+	hmi_DiPV: 				ARRAY[1..cnst_num_di] OF str_DiProcess; (*Array for easier bulk handling of I/O in HMI*)
+	hmi_DiSetup: 			ARRAY[1..cnst_num_di] OF str_DiSetup; (*Array for easier bulk handling of I/O in HMI*)
+	hmi_DiWriteSetup: 		ARRAY[1..cnst_num_di] OF BOOL; (*Write changes from HMI into retain memory*)
+	hmi_RestoreDefault_di: 	ARRAY[1..cnst_num_di] OF BOOL; (*Restore default values from "Settings"-action*)
+
+	hmi_DoPV: 				ARRAY[1..cnst_num_do] OF str_DoProcess; (*Array for easier bulk handling of I/O in HMI*)
+	hmi_DoSetup: 			ARRAY[1..cnst_num_do] OF str_DoSetup; (*Array for easier bulk handling of I/O in HMI*)
+	hmi_DoWriteSetup: 		ARRAY[1..cnst_num_do] OF BOOL; (*Write changes from HMI into retain memory*)
+	hmi_RestoreDefault_do: 	ARRAY[1..cnst_num_do] OF BOOL; (*Restore default values from "Settings"-action*)
+	
+
+
+
+	
+	
+END_VAR 

@@ -1,0 +1,194 @@
+b664bdf910be914d303b8db9ebbca7dc3f9594bd 	 Yngve Solbakken 	 2018-11-29 20:25:32 +0100 	 Battery is now upgraded to version 2.2.0.R
+f93044595e960e69431318659d4168e017b829ae 	 Yngve Solbakken 	 2018-11-29 20:25:02 +0100 	 Added override mode to precharge dc-link. See info below:
+0530b89fc0b26b42f1322a44c051dc68e572600d 	 Yngve Solbakken 	 2018-11-29 20:22:48 +0100 	 Improved auto-deactivation logic for interface testing mode.
+62168989e679e7c7d5446a89898f059f7a04fa68 	 Yngve Solbakken 	 2018-11-29 09:02:38 +0100 	 Dc link voltage lower limit as start inhibit can now be set in HMI
+145be40eb28d0ef0d849a8d72b7a83cd0a4aac1d 	 Yngve Solbakken 	 2018-11-28 23:51:55 +0100 	 Added variable for drive power in % to HMI
+1ee774e3213da8456766eb5e442f6c6a0bd6e495 	 Yngve Solbakken 	 2018-11-28 23:51:35 +0100 	 Fixed drive power calculation
+cd756b899b8f8a987e38cb2144e43a1ba3bf2f9c 	 Yngve Solbakken 	 2018-11-28 21:23:15 +0100 	 Renamed IAS variables to avoid bitwise reading.
+25b8dc32869b5b9fdfe606a97a98bc7dbe196814 	 Yngve Solbakken 	 2018-11-28 21:22:53 +0100 	 Added testing/monitoring of IAS values from HMI. Cheers
+d06427080385d8df7bfe1fc6fb89f3bb5275e461 	 Yngve Solbakken 	 2018-11-28 21:22:04 +0100 	 Added fb to split an INT to Array of Bool
+5aa43ba00c244aa770e8fc0e20e5a26007bc7474 	 Yngve Solbakken 	 2018-11-27 16:36:12 +0100 	 Fixed alarm blinking for group alarm connected to multiple alarmwords
+cb0eb4eb626d4a163f6b17361982ec237d4f61d8 	 Yngve Solbakken 	 2018-11-27 16:35:46 +0100 	 Replaced SVI_Comfort_plc.lib 2.03Beta with 2.06 Release
+437209ba60ec67b02203bbf19b5defcbb2eda902 	 Yngve Solbakken 	 2018-11-27 14:08:57 +0100 	 Added instrument output for battery voltage
+3367a417068fe5f33d81cd661b89ba38bd12cc35 	 Yngve Solbakken 	 2018-11-27 14:08:07 +0100 	 Unit temp: user limit is now used to color hmi scale yellow. Red at 70
+6783b557f304c314068ecb7d9948179c6fbbb2c6 	 Yngve Solbakken 	 2018-11-27 14:06:44 +0100 	 Updated "repeatalarm" function
+5bd23283c254e3198fc04d6f7209a31c9f4e58be 	 Yngve Solbakken 	 2018-11-27 14:05:33 +0100 	 Increased nr of faultwords from 10 to 20
+36af24f7306c096e0ce01b468e89923c097c2ee3 	 Yngve Solbakken 	 2018-11-27 06:34:36 +0100 	 Corrected version to 2.1.1
+9a86cb457a50625dd2a0a4338877a283b73809af 	 Yngve Solbakken 	 2018-11-26 15:02:50 +0100 	 Updated revision to v2.1.2
+1957b5d33dd5f3e084ae5f2c01446417a691c567 	 Yngve Solbakken 	 2018-11-26 14:59:35 +0100 	 Added missing alarm; Low SoC to HMI status screen.
+f65ba3abdf5e08a5e492e4e5624451e99134a022 	 Yngve Solbakken 	 2018-11-26 14:59:14 +0100 	 Added shutdownplcfailure on vacon comm fault
+54884f33d0ba0656df87c6655e7c0bef9c3d7aea 	 Yngve Solbakken 	 2018-11-26 14:58:57 +0100 	 Added repeat alarm on common alarms/faults to IAS
+4f022f7a5f23582f45295415af6420b8b5cb3a32 	 Yngve Solbakken 	 2018-11-26 10:23:14 +0100 	 Fixed erroneous initial value of BMS_AlarmWord. Rev up to v2.1.1
+74c7a37fbed9584af071058b7f84cd4d8e2759ec 	 Yngve Solbakken 	 2018-11-22 09:03:51 +0100 	 Added WebMI Alarm list to repo.
+246e1ea142461de395caeb643258e48e88a6b17a 	 Yngve Solbakken 	 2018-11-21 11:49:00 +0100 	 Upgraded to 2.1.0 and reconfigured SoH and SoC calculation if commfault
+4670e646f23102a523e92142a364f499a840b31f 	 Yngve Solbakken 	 2018-11-21 11:47:50 +0100 	 Added instrument and lamp status to HMI settings
+f7e54fab38b57f426d88bf701f45cb7c6beda452 	 Yngve Solbakken 	 2018-11-21 11:47:04 +0100 	 Added FaultWord2, moved "bms total comm fault" to fault.
+1007eb49844e89953240b29eccdfc32b12dc974b 	 Yngve Solbakken 	 2018-11-20 19:32:37 +0100 	 Added hmi settings for door instruments and lamps
+a96016c4f5397e1ce1e49922e967f227964bbc5a 	 Yngve Solbakken 	 2018-11-20 19:32:22 +0100 	 Added alarm on high unit temperature
+7a3b57b0941334c92c445f89eba6adfad61738da 	 Yngve Solbakken 	 2018-11-19 07:09:43 +0100 	 Added extended state machine to IAS with prewarning and shutdown.
+d0db97b06c9429ce2b10c165d821fd7dd08a94ae 	 Yngve Solbakken 	 2018-11-15 13:20:35 +0100 	 Fixed bug in energy calculation while online.
+de48f77e73def6fbb9a7917e26568170d68f530a 	 Yngve Solbakken 	 2018-11-15 08:18:04 +0100 	 Added over/under volt ref disabling while in limit. this is nifty!
+a4508dd6ad14b119a593c85e92de0ab9e7cda69f 	 Yngve Solbakken 	 2018-11-15 08:15:57 +0100 	 Added E0 alarms and included battery alarms in common app warning
+390507eb82deefc318a1f08065600bfb0a3f79b4 	 Yngve Solbakken 	 2018-11-15 08:15:32 +0100 	 Added condition that prevents discharge limit alarm while stopping
+0289d0f87e0ca3340d51358eda488998b9e8ca83 	 Yngve Solbakken 	 2018-11-15 08:15:06 +0100 	 Fixed scaling colorization of dc link voltage and drive current
+96047f00500c182dfef3c62fdf4eb16e5e2fc4ae 	 Yngve Solbakken 	 2018-11-15 08:14:42 +0100 	 New calculation for average cell temp and cell voltage. That works.
+176182a519dc22e37389d7c84ce8d1b78c549245 	 Yngve Solbakken 	 2018-11-14 18:52:03 +0100 	 Added indications for trip timers and trip signals for HH and LL
+9b96157ad28623127a1b7fb1050f791380e78a6f 	 Yngve Solbakken 	 2018-11-14 18:51:45 +0100 	 Adjusted trip conditions.
+ac70e7ff06419c8d8dc69dcacc6a4e7cecfa23d0 	 Yngve Solbakken 	 2018-11-14 18:50:49 +0100 	 Fixed AO charge/discharge current limit.
+01ee079f0df3761f4d09fca14689a491f5429c18 	 Yngve Solbakken 	 2018-11-14 18:50:13 +0100 	 Fixed increase/decrease mix up
+56b49ba41d28c3809ed2440f00a59dfd0c6c8306 	 Yngve Solbakken 	 2018-11-14 12:26:17 +0100 	 Added test-bits to provoke starting/stopping timeout from HMI
+5ba9e63fff0b06fbea1d41fb57e18fb5ca028bf9 	 Yngve Solbakken 	 2018-11-13 19:44:58 +0100 	 Mini fix to limiter's .L scaling in HMI instrument
+b3fb764da8cb92624d909946483cfa1f6811c9b2 	 Yngve Solbakken 	 2018-11-13 19:31:05 +0100 	 Added actual used charge and discharge limits as own variables
+01bac9f18213e26eb00dfd84fe861836cad4ae38 	 Yngve Solbakken 	 2018-11-13 19:30:40 +0100 	 Added analog values in percent for easier scaling of instruments
+d6e9a8f79195efbd91c5c2deb16ffb568159a0da 	 Yngve Solbakken 	 2018-11-13 19:30:19 +0100 	 Changed current reading from Profidrive. Is now directional.
+ca5e80009523f8f3264955332d67260df974b290 	 Yngve Solbakken 	 2018-11-13 19:29:56 +0100 	 Removed writing to process image. Dumb idea.
+197d919a9a8ef5bfb8bd583a99b01c9aec2a444b 	 Yngve Solbakken 	 2018-11-13 19:29:38 +0100 	 Changed max battery voltage from 1008 to 1000V as per specs
+172f2e73b6e5212f4304b4fc5e8d242205b0fb16 	 Yngve Solbakken 	 2018-11-13 16:39:25 +0100 	 Added "battery ready to connect" signal to statemachine startinhibit
+01596710313a8ebc1bf505237ea1307505ee65a4 	 Yngve Solbakken 	 2018-11-13 16:38:42 +0100 	 Fixed scaling
+4f8f4627283c0fa92a83c31636ee03134ccac013 	 Yngve Solbakken 	 2018-11-13 16:38:14 +0100 	 +Startinhibit på low dc link voltage. Fixed start while bat connected
+af8b57777d2b87fff67d92892041aa2f4e073e1a 	 Yngve Solbakken 	 2018-11-13 16:33:55 +0100 	 Fixed discharge limitation correction factor
+ccd8650409afc0885ef9ef7257878746289be654 	 Yngve Solbakken 	 2018-11-12 18:59:55 +0100 	 Added PlcRunning to deactivate shutdownplc in case of EOI
+0b4280dfec85ced5204b5b5b3173265729b95a2b 	 Yngve Solbakken 	 2018-11-12 18:59:24 +0100 	 increased reset timer, replaced ias control with local variables
+6cbd3d1e792963491f40510571134202b2556915 	 Yngve Solbakken 	 2018-11-12 18:59:01 +0100 	 Removed bootreset. Reset now looks at state instead.
+d469eb959cc5d820c8ca79a48e6ee3b1f06447b9 	 Yngve Solbakken 	 2018-11-12 18:58:39 +0100 	 Updated conditions for charge/discharge limit indications
+7a22ea60d7f87d41da3cad33173e8a967754a15f 	 Yngve Solbakken 	 2018-11-12 18:58:14 +0100 	 Added local  variables for ias control commands
+5224aaad4108c81c78a070c98041c30830611305 	 Yngve Solbakken 	 2018-11-12 18:58:02 +0100 	 Swapped increase/decrease
+a189107f22fe28373fdfa3e6d1355be6be56c587 	 Yngve Solbakken 	 2018-11-12 18:57:45 +0100 	 Improved charge/discharge limit functionality
+1dc5587bd8b889222f8960506abaa397d2d815d9 	 Yngve Solbakken 	 2018-11-12 18:57:25 +0100 	 Updated battery room temperature sensor from 4-wire to 2-wire
+e2d97d610a061fd02a01cf801d9b879fd979f149 	 Yngve Solbakken 	 2018-11-12 18:56:56 +0100 	 Improved limiter function
+6d4489ae3b6faed29b09977bc66975f0622b5d72 	 Yngve Solbakken 	 2018-11-12 18:56:46 +0100 	 Updated DIO card process image settings
+df14d45b00a709a0561fb60b4729a50c6924942a 	 Yngve Solbakken 	 2018-11-12 10:40:35 +0100 	 Added average function to replace filter_i. not field tested yet.
+9e5ac155c4ce5533c9643d185d4fe8554a7cd946 	 Yngve Solbakken 	 2018-11-12 10:20:14 +0100 	 Added additional OSCAT functions. Removed unused functions.
+0873d6f2f85a77bafa8f56b125b705dc28e83a5f 	 Yngve Solbakken 	 2018-11-12 09:40:36 +0100 	 Corrected limiter LL and L values for HMI
+2f1a8b367be6de46f019b295ef7607ddeb8324a2 	 Yngve Solbakken 	 2018-11-12 09:40:12 +0100 	 Fixed issue with int/real type in ARRAY_MIN function
+482165cb4f96471aad86a09fd9be28400c88eb0c 	 Yngve Solbakken 	 2018-11-11 11:39:19 +0100 	 Disabled filter for charge/discharge limit. Error in OSCAT fb.
+fe34436a3a7b62a2bf74d849529fc521d505fd17 	 Yngve Solbakken 	 2018-11-11 11:38:52 +0100 	 Fixed scaling of over/under voltage reference to vacon
+f0f8fd9a99d97c71c12d1227543cece262ba9edc 	 Yngve Solbakken 	 2018-11-11 11:38:36 +0100 	 Adjusted max limit for step size.
+f7694e5c3635cc4e759f88fece94d256fc256525 	 Yngve Solbakken 	 2018-11-10 18:28:13 +0100 	 Fixed typo
+51c8acf67a622d46bb6f0a131a191f7ed9bb9b2b 	 Yngve Solbakken 	 2018-11-10 18:28:05 +0100 	 Added systemRunning bool
+58c1f2fbfb1bbb5793b2d2bde7890452aa80c546 	 Yngve Solbakken 	 2018-11-10 18:27:54 +0100 	 Corrected bug in start sequence
+aa5e5eaec78562a9d3bb0770de718b6d1cf1ac94 	 Yngve Solbakken 	 2018-11-10 14:47:08 +0100 	 Added IAS operational mode (hybrid/pure electric/diesel/servicechrg)
+d77d6177fe075f6072a1decbfdc5037663bf29e9 	 Yngve Solbakken 	 2018-11-09 19:43:59 +0100 	 Added inc/dec setup to HMI settings
+d183a5c8d6ace22ee78f44766c54dabf2eeb7154 	 Yngve Solbakken 	 2018-11-09 19:43:30 +0100 	 Adjusted slow task to optimize cpu load
+e7f5c9ab01e03f67500b456ab93598f1e65e2e2f 	 Yngve Solbakken 	 2018-11-09 19:42:53 +0100 	 Revert "Revert "Adjusted task configuration to lower CPU load""
+89985d7870e35f505bc30bea927c0582826a9af0 	 Yngve Solbakken 	 2018-11-09 19:41:28 +0100 	 Revert "Adjusted task configuration to lower CPU load"
+d0f13dd7aa988f33b15d97835acc8de566b21306 	 Yngve Solbakken 	 2018-11-09 19:40:42 +0100 	 Adjusted task configuration to lower CPU load
+d9e4754e2c5ca658783139969cf643b6d0168016 	 Yngve Solbakken 	 2018-11-09 11:49:21 +0100 	 Major rebuild in HMI Settings handling. Now much simpler and better even
+51ab8b2b3ad18091299279a41f657cf1269cac86 	 Yngve Solbakken 	 2018-11-09 08:54:24 +0100 	 Updated variable description
+d4c74be7fe9af84eb6af905e59bd3957ac4c63c8 	 Yngve Solbakken 	 2018-11-09 08:46:40 +0100 	 Implemented HMI-config of IAS communication setup
+18ada74c9f3f589b518c90c12ef68ac5e703dc37 	 Yngve Solbakken 	 2018-11-08 20:50:56 +0100 	 Made project NOT error tolerant (SW module not loaded if boot error)
+358cdec52bb5eefa2cdfbfc499fc78c2b55269ef 	 Yngve Solbakken 	 2018-11-08 20:48:43 +0100 	 Deleted parts of process image not needed
+c64a1f69e78ecbf9837aa30c8c30eaafd31a5406 	 Yngve Solbakken 	 2018-11-08 20:47:26 +0100 	 Added DIO Process Image (initialize:=true) to enable PlcShutdown
+e2fd7e8d8cab833ffc2c7d6b3d50dd0ae3dc81b8 	 Yngve Solbakken 	 2018-11-08 20:11:55 +0100 	 Added common app/level faults. Added new alarm.
+1dbb14afb18ff84ff0ad7c7970cb446f635bd8cd 	 Yngve Solbakken 	 2018-11-08 20:11:33 +0100 	 Removed TODOs and some whitespace
+44be3e3da2592641ab8fcddc3fef6adddc2c06d7 	 Yngve Solbakken 	 2018-11-08 17:57:19 +0100 	 Added DriveFault
+65cf53c0c394e5e310d0a10caff56d66391652bc 	 Yngve Solbakken 	 2018-11-08 17:57:10 +0100 	 Fixed IAS signals after interface testing with NCS
+771b0d7101ea5804874ef20a61827c8abef2a202 	 Yngve Solbakken 	 2018-11-08 14:20:30 +0100 	 Added "Start Inhibited" bool for status screen
+863df95dfa86fdbd5fecce69caadd81fe5ce4afa 	 Yngve Solbakken 	 2018-11-08 14:20:07 +0100 	 Added more spare AO to increase nr of telegrams from 75 to 100 (NCS)
+79c9e2be32e4a586eab5c16a9ad6009d470fe930 	 Yngve Solbakken 	 2018-11-08 12:06:51 +0100 	 Added init of hmi variables in firstRun
+74736a3ca7505c9afe8119bcf2abc077cb5e5e1a 	 Yngve Solbakken 	 2018-11-08 08:58:17 +0100 	 Added two new signals from ias: BatteryAlone and Fire Alarm
+80de181e6ed6cd79541e861d0848429e469a1bbe 	 Yngve Solbakken 	 2018-11-08 08:25:22 +0100 	 Moved lamp test logic from PRG_DO to PRG_HMI
+3f59da1d93d72196f5a3e4fd3bb04473ce90bd8e 	 Yngve Solbakken 	 2018-11-07 19:07:00 +0100 	 Adding XOR-function to lamptest
+1cbc18d26252ed04896e453a3e18abbb5de2f527 	 Yngve Solbakken 	 2018-11-07 17:28:43 +0100 	 Removed automatic restore of hardwire channels.
+1de4e5b6f8927a8887ad827a6c164ee8536ec375 	 Yngve Solbakken 	 2018-11-07 16:01:59 +0100 	 Added more robust protection settings change-handling
+94508510c86c1b427a84f3f4ea53d344925d7e9b 	 Yngve Solbakken 	 2018-11-07 16:01:29 +0100 	 Disabled external counter
+da29eee1868449d000251e62569e869ab3d1a03a 	 Yngve Solbakken 	 2018-11-07 14:54:27 +0100 	 Added SoH Testing
+6b7369255039ca14d59598c347690801e8524869 	 Yngve Solbakken 	 2018-11-07 12:52:57 +0100 	 Added interface test function
+9e8c63fdfb23d9a078d1568442983505bb722c89 	 Yngve Solbakken 	 2018-11-07 12:34:12 +0100 	 Added lamp test
+138b822e98e9b7c0f35861b747f0ec314ee73925 	 Yngve Solbakken 	 2018-11-07 12:34:05 +0100 	 added more variables to Settings page
+0a2e5a3780e0479ef27658477bbc7b88f097a2d5 	 Yngve Solbakken 	 2018-11-07 09:06:15 +0100 	 Added autoreset for communication alarm
+20875985ef9a96aeabf6176c4f02d8e10a86dd87 	 Yngve Solbakken 	 2018-11-06 19:00:09 +0100 	 Made communication check smarter.
+ae274c24f5de036d14fdcb4f074f1ef27488965a 	 Yngve Solbakken 	 2018-11-06 18:59:52 +0100 	 Added conditions for some values not to be zero in warning basket.
+87bdf3be51e4ab2eeec42b5ead313af6858b0e86 	 Yngve Solbakken 	 2018-11-06 18:59:29 +0100 	 Removed auto reset of channel in case of chan nr change.
+f56741c4075d649f40e77771715f9e801c119d0e 	 Yngve Solbakken 	 2018-11-06 18:58:57 +0100 	 Added re-check of CardID in case of read error
+8f9c223aa13c9f62e6e1194724a6d4a42ffd44be 	 Yngve Solbakken 	 2018-11-06 17:53:22 +0100 	 Added reset function
+ed111abd5e9bfdf6f8a5b6962694566f55f54a2b 	 Yngve Solbakken 	 2018-11-06 17:52:17 +0100 	 Added more info to HMI Info Screen
+5a9bc200353875bc5be5ac5fd1a07391c3e50601 	 Yngve Solbakken 	 2018-11-06 17:52:05 +0100 	 Added equal conditions to low cell voltage as low voltage/soc
+f8edc6f52eba5d0b7a7ff619b0bcfeb555b45ff1 	 Yngve Solbakken 	 2018-11-06 14:55:46 +0100 	 Removed logic to control SourceMinMax Voltage to Vacon
+17b00dee10ceec0432c54f65949bab2fe6c5e055 	 Yngve Solbakken 	 2018-11-06 14:55:18 +0100 	 Added outputs for monitored cpu temp/load and free mem
+f64feedc20ca71b58d39d44edfc8d43a66fdaa83 	 Yngve Solbakken 	 2018-11-06 14:54:58 +0100 	 Removed SourceMinMaxVoltage, added flexible UnderOverVoltRef Margin.
+6df8cfed477f597ff3538bb4bd6fd768595e68f0 	 Yngve Solbakken 	 2018-11-06 09:27:02 +0100 	 Changed temp sensors from 3 wire to 4 wire
+c2fd7e37a8b6318eceda95c959fa303db35cb710 	 Yngve Solbakken 	 2018-11-05 21:07:19 +0100 	 removed comm fault from common warning
+1e093c35e7182f5f345a824ed86de10aeecaed67 	 Yngve Solbakken 	 2018-11-05 21:07:02 +0100 	 Added more robust communication fault handling. Not fully tested yet.
+11a7ebf8b766d4900c822d68525e5846821518c9 	 Yngve Solbakken 	 2018-11-05 21:06:40 +0100 	 added reset to breaker DiDiVerif and commfault check on IAS time synch
+8308a73e18591f4d3e3c143b252733c46a5ee33c 	 Yngve Solbakken 	 2018-11-05 21:06:06 +0100 	 Added automatic restore of erroneous protection configuration
+81b5d5f23f768d07b8177eed634b054b045121d8 	 Yngve Solbakken 	 2018-11-05 21:05:23 +0100 	 Replaced config error alarm with BMS total comm fail alarm.
+9f41d3a16b283490f1dc4a8eb0e1bcd37e33a6af 	 Yngve Solbakken 	 2018-11-05 21:04:40 +0100 	 Fixed inverted digital output of PLCshutdown
+a2ea24b06773b525f389a041d308c07eafc4e06d 	 Yngve Solbakken 	 2018-11-05 21:04:24 +0100 	 CardId is negative, retrieve new cardID
+2b98a2d4e5dec9d1437378f423f4d3d3ad87f644 	 Yngve Solbakken 	 2018-11-05 15:02:59 +0100 	 Added condition to not have total comm fault to bms for low alarms
+079dfbe686268c4a64ec05d902a9faaa1082c47b 	 Yngve Solbakken 	 2018-11-05 12:12:47 +0100 	 Removed old "drive nominal current" and replaced it with new struct.
+707c0c30c21a2d24d6408c528c88ad3bb630360b 	 Yngve Solbakken 	 2018-11-05 12:01:23 +0100 	 Updated version from Alpha to Release.
+993e672fbed5b5bbf15a4ec207ad013459e479bf 	 Yngve Solbakken 	 2018-11-05 12:01:09 +0100 	 Moved DriveSettings struct from PRG_HMI to Global VAR Retain.
+913e4dc65bf518ad0d8c026f8246c59a4e06e985 	 Yngve Solbakken 	 2018-11-05 12:00:27 +0100 	 Added fix to reset to zero if reference was outside limits.
+7fd967459ee338fc655307904da33cf5ec0f923b 	 Yngve Solbakken 	 2018-11-05 10:11:59 +0100 	 Implemented IAS Remote time synchronization
+0e843bb3697833ecec584efa3ce96e5202c7da35 	 Yngve Solbakken 	 2018-11-02 12:00:05 +0100 	 Added new fb for remote time keeping from IAS. Not yet implemented.
+3f0e7bcddb4b07c158b5cf1f83f2a2a68fb28c68 	 Yngve Solbakken 	 2018-11-01 13:51:45 +0100 	 Deleted unused structures and function blocks.
+3ed6657a2eea74869f2cb80feb9409f27405d57a 	 Yngve Solbakken 	 2018-11-01 10:10:31 +0100 	 Rebuild of PRG_drive is now prepared for site testing. Compiles :)
+fa482636c8fae2462755deb0e751cc100670e559 	 Yngve Solbakken 	 2018-11-01 07:53:06 +0100 	 Converted OrcaCurrentLimiter from pu to engineering value (amps)
+c79e4f8efe445d9c361084372142d1c8a51daffc 	 Yngve Solbakken 	 2018-10-31 12:01:26 +0100 	 further work in drive I/O (WiP, does not compile yet)
+8918f68d27a096d5a58e499e0d296a227d1f8738 	 Yngve Solbakken 	 2018-10-30 11:39:34 +0100 	 Rebuilding Drive interface - WiP / DoesNotBuild.
+3e4de8c2ca3c179b094fbba1c94f3d147834d41a 	 Yngve Solbakken 	 2018-10-29 11:59:36 +0100 	 Updated powersave mode and fb_CorvusOrcaComm after testing at Foresight
+6da771a1e48684f323bc20d944e5d07237663064 	 Yngve Solbakken 	 2018-10-18 14:22:15 +0200 	 Added common faults/warnings from BMS Array. Moved all to protection.
+9ef320a7d5392bf449db8e5f373b2e07cd008b38 	 Yngve Solbakken 	 2018-10-18 14:21:49 +0200 	 Moved battery protection to slow task (modbus is slow anyway)
+9b33f67b55d79780d452c4e7f0efbe3fab744f7f 	 Yngve Solbakken 	 2018-10-17 17:14:57 +0200 	 Slowed down tasks to reduce CPU load (was 60, became 30)
+f889690df6a0d6a63eba504053c8afded429cb15 	 Yngve Solbakken 	 2018-10-17 17:14:32 +0200 	 Updated IAS variables
+10e87717549579a24bbd27b4fa430830fae8134b 	 Yngve Solbakken 	 2018-10-17 14:17:55 +0200 	 Added vacon comm fault to plcshutdown-output.
+2abb9a368645de42519497f61045259ced058490 	 Yngve Solbakken 	 2018-10-16 23:25:48 +0200 	 Updated channel config
+5528daa70399d82980946e023bb829d22439ac38 	 Yngve Solbakken 	 2018-10-16 23:25:39 +0200 	 Fixed stupid use of plcshutdown signal on drive comm fault
+653e1e0105419f86babe942ac9afd6a2c95ad22b 	 Yngve Solbakken 	 2018-10-16 23:25:13 +0200 	 Added bit to restore battery protection settings
+9147e6e51813e048ec88b129a4a96f93b5d5bcaf 	 Yngve Solbakken 	 2018-10-16 23:24:54 +0200 	 Added new alarm scheme
+2cb65a699b0e969cd0ced9477ee3d5688cdb9a62 	 Yngve Solbakken 	 2018-10-16 18:34:38 +0200 	 comment update.
+af8eaac76ca873b46daaefa770bb2155de3f328e 	 Yngve Solbakken 	 2018-10-16 18:34:23 +0200 	 Added new alarm scheme + hardware alarms from cpu
+35733e73b9ea6ae6c9dd0f5694ecc508c41ad1f8 	 Yngve Solbakken 	 2018-10-16 16:25:27 +0200 	 Updated alarm/faults and ai/ao settings
+d49400bac578a5b2f0f4fa563ed59d025d75d8df 	 Yngve Solbakken 	 2018-10-16 16:24:56 +0200 	 Added ias watchdog
+605c6b4a998478f1fa0596240f486c20faf94907 	 Yngve Solbakken 	 2018-10-16 16:24:37 +0200 	 Added HW functions for cpu and network monitoring. Updated lib file.
+575abbc6a4da0766f7ae11081bbd8822f119e42f 	 Yngve Solbakken 	 2018-10-16 08:20:43 +0200 	 Hardcoded some ai/ao setup information and limits/scaling
+854007e457aae776d2cbbc8f5c80075adaa73eac 	 Yngve Solbakken 	 2018-10-16 08:20:12 +0200 	 Increased number of alarm words in array
+b9944e05e66c659ec3f905aa220e8556fa510038 	 Yngve Solbakken 	 2018-10-16 08:19:49 +0200 	 Commneced work on new fb_repeatAlarm. Work in progress. Untested.
+551955eb74c3f56de091a7c1272cf833d586992d 	 Yngve Solbakken 	 2018-10-16 08:19:23 +0200 	 Added new retain variable:  first battery modbus card nr
+5acac2dde83b0a4d17b9ae25051e28e5d7a68914 	 Yngve Solbakken 	 2018-10-16 08:18:41 +0200 	 Added hmi reset and boot reset
+a791838f64ff52c0892fdce2ef7071b17ef0c153 	 Yngve Solbakken 	 2018-10-14 18:27:14 +0200 	 Updated hardwire handling
+877c125eae42c20587ad28ed14b25284b22f3ef0 	 Yngve Solbakken 	 2018-10-12 15:34:59 +0200 	 Updated faults and drive communication (prepare multi drives)
+ac812aa3a8f4512ff9f78402b98013268ba218cd 	 Yngve Solbakken 	 2018-10-12 13:56:39 +0200 	 further work on settings from hmi (rated values, profinet card nr)
+ca5f24b5a30e6ca0703b4c53b2dddde22cfa6b23 	 Yngve Solbakken 	 2018-10-12 10:05:22 +0200 	 Updated statedata struct: moved all commands to CW, removed Functions
+953c077510fca00d4d3771f2fb5c170508030d4d 	 Yngve Solbakken 	 2018-10-12 07:59:56 +0200 	 Updated alarm/fault handling for up to 10 alarm/fault words
+774c68bc67096204cf4dd55f67d0e0a814622b1a 	 Yngve Solbakken 	 2018-10-11 18:56:10 +0200 	 Further work on battery protection
+884559107dae2e20bed24472675bb72f22871fb1 	 Yngve Solbakken 	 2018-10-11 17:38:46 +0200 	 New function block for bulk handling of protection trip delays
+e72bd9d1a062f2ddf7dc5c7bb69500f0d615f037 	 Yngve Solbakken 	 2018-10-11 16:07:46 +0200 	 Added hardwire interface according to latest drawings. Updated naming.
+e9b17a9b1bba54fc733d235e44058a1c93d56ed9 	 Yngve Solbakken 	 2018-10-10 14:49:58 +0200 	 More work on HMI settings and protection
+ab8ce56f23e85c1d6c012158967f8e6404a56f79 	 Yngve Solbakken 	 2018-10-09 14:55:57 +0200 	 Work on HMI settings (work in progress)
+005ba9ede3505de9f9854f96750a0c57c0eb0441 	 Yngve Solbakken 	 2018-10-08 14:43:34 +0200 	 Updated HMI-information and HW-sections
+a73121efefdf14ba5684797eee7a0be9f09b432b 	 Yngve Solbakken 	 2018-10-04 11:48:27 +0200 	 Updated task cyvle time from 10ms to more.
+4b0e438a75e5d10a4692b0ceca5a803310bcfaeb 	 Yngve Solbakken 	 2018-10-04 10:58:25 +0200 	 Merge branch 'BATTERYv2' into 1-offline-battery-protection
+a0b6270537de0bb2e784197a08795a44546a7e78 	 Yngve Solbakken 	 2018-10-04 10:57:37 +0200 	 Tidied up unused variables
+594963f68a926ef44cb0b9824456197529d400f9 	 Yngve Solbakken 	 2018-10-03 15:48:12 +0200 	 Changed battery communication timeout from "any" to "all", delay now 5m
+c27a5eb9498116742b63e213f6ed4a43d5fbab7b 	 Yngve Solbakken 	 2018-10-03 15:36:28 +0200 	 Merge branch '1-offline-battery-protection' of git@Hav-App02:nes/BATTERY.git into 1-offline-battery-protection
+6956fc986a0d5f681343427d7cffb7673fc6266c 	 Yngve Solbakken 	 2018-10-03 15:12:31 +0200 	 #1 Added limits for battery protection. renamed old constants.
+1801ac302bd60447929bb10f25beef3cab0dd33f 	 Yngve Solbakken 	 2018-10-03 15:12:31 +0200 	 Added limits for battery protection. renamed old constants.
+07c72dd8b68fa014c6e2707e2cbb34b9b8c6ba86 	 Yngve Solbakken 	 2018-10-03 14:02:59 +0200 	 Added SoC check for offline packs
+2a991809a8fdc9dced4e95777db75d0f4ed20faa 	 Yngve Solbakken 	 2018-10-03 12:15:01 +0200 	 #1 Started implementation: gather cell voltage/temperature.
+e34b7e561fe3bc774cda98955ee0e26de5b9a11c 	 Yngve Solbakken 	 2018-10-03 10:35:17 +0200 	 Added revlog.txt with formatted log output for excel use
+b6a112d585b9a9675ad0f37e8297900375cbfb9e 	 Yngve.Solbakken 	 2018-10-02 14:02:17 +0200 	 Work with reference handling etc
+73653fac02084466957c40b69c6fc4584543e26f 	 Yngve.Solbakken 	 2018-10-02 13:52:57 +0200 	 updated comment
+90b1007cadf955abe07aa33097fd637efefc4616 	 Yngve.Solbakken 	 2018-10-02 13:52:33 +0200 	 Added new version of incdec fb from eirik
+2097d48c7f5dd80b854f5a5a1f2067be61268020 	 Yngve.Solbakken 	 2018-10-02 13:52:13 +0200 	 removed whitespace in comment
+f313ccb663d0477df110c5fdeec02cefe3fc04dc 	 Yngve.Solbakken 	 2018-10-02 13:51:22 +0200 	 Deleted unused function blocks
+c511cc516115aacdab6254762ccec6582d371cf9 	 Yngve.Solbakken 	 2018-10-01 09:39:59 +0200 	 Added structs from QG, optimized statemachine. Renamed FBs
+0c7ee37da5d70cce6733fc560ffb5a3294ec3630 	 Yngve.Solbakken 	 2018-09-28 13:22:39 +0200 	 Deleted old code, prepared under/over volt commands in PRG_Drive
+9835a50112577208862fab615250231291b68b8e 	 Yngve.Solbakken 	 2018-09-28 13:11:36 +0200 	 removed global FirstCycle, replaced with local variable.
+a6eb79088b88f0d8c3c52c420c3c795e937c6137 	 Yngve.Solbakken 	 2018-09-28 13:06:52 +0200 	 Updated task configuration with fast/main/slow tasks.
+48c6920300e0f3f91064ef644da948fd5c751d03 	 Yngve.Solbakken 	 2018-09-27 11:09:12 +0200 	 HMI work
+4fbd6455c7eaed7bec7f30c4941adc58bc9f838a 	 Yngve.Solbakken 	 2018-09-27 11:08:04 +0200 	 Added battery protection and power save mode
+05cdd004b856f483fd7624024c3ea03491d7c46a 	 Yngve.Solbakken 	 2018-09-27 11:07:04 +0200 	 Updated global settings
+838be7fc0db170a8f57f0cc6ece0f520374c797d 	 Yngve.Solbakken 	 2018-09-27 11:06:18 +0200 	 Added new enums for control place and control mode
+d7d368a5d8c5ef1cb7bd693f09d004a31f0c7646 	 Yngve.Solbakken 	 2018-09-27 11:05:38 +0200 	 Updated corvus communication
+c81eea9728316b154e236410f2a216b18a840452 	 Yngve.Solbakken 	 2018-09-27 11:04:35 +0200 	 Added OSCAT function. Deleted redundant function.
+89261e72e3252c34934a65105d5d67ee8bc8c060 	 Yngve Solbakken 	 2018-09-25 14:51:37 +0200 	 Further work on v2; PRG_HMI, fb_Controlplace/Controlmode  etc.
+13626f9d5cd8ec695f258e424a5af6421271e5a4 	 Yngve Solbakken 	 2018-09-24 16:00:01 +0200 	 Updated .gitignore (*.launch), updated task and moved ias ctrllocation
+23cccc86f6eb30ba203be6b6014b91e5248b353b 	 Yngve Solbakken 	 2018-09-24 15:59:13 +0200 	 Re-added lib files
+f5bcda1cffa0b0c2d54a71229b9d25dba1d778c7 	 Yngve Solbakken 	 2018-09-24 15:58:51 +0200 	 Further work on implementing IAS communication signals.
+09ede3d89116b713126ed7eb30c108664304ca55 	 Yngve Solbakken 	 2018-09-24 13:47:44 +0200 	 Added IAS variables according to "NES-123-028-01 ModbusInterface, Quadro Master Rev 7"
+bb991aa14e2147838b66f938558f7a09c1c62a5c 	 Yngve Solbakken 	 2018-09-18 14:56:27 +0200 	 Restructured program - it is now building without errors.
+9612e14f61c61fd9c5284f6f4f9395e0fdb81e6c 	 Yngve Solbakken 	 2018-09-13 15:34:22 +0200 	 New file- and folder names. Code in ny home
+8f69d6fa8e76fec3605c72006bd0225370f71a9d 	 Yngve Solbakken 	 2018-09-13 08:40:29 +0200 	 Initial commit of DCDC5STR before making adjustments
+32eff7b3665c06372677d9792e14e5e8f5a59b12 	 Yngve Solbakken 	 2018-09-13 07:57:06 +0200 	 Add README.md

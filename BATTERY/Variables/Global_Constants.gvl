@@ -1,0 +1,53 @@
+VAR_GLOBAL CONSTANT
+
+	(*Number of I/O-channels and I/O-modules*)
+	cnst_num_ai: INT:=3; 		(*Total number of analog inputs*)
+	cnst_num_di: INT:=19; 		(*Total number of digital inputs*)
+	cnst_num_ao: INT:=5;		(*Total number of analog outputs*)
+	cnst_num_do: INT:=13;		(*Total number of digital outputs*)
+	cnst_num_cards: INT:= 2; 	(*Total number of IO cards*)
+	
+	(*Battery Constants*)
+	Selected_Precharge_Pack: INT:=1; 					(*Pack number of selected precharge pack.*)
+	
+	(*Battery Limits*)
+	setup_SoC_HH_Trip :							DINT := 92;		(*Max State of charge in percent*)
+	setup_SoC_H_Alarm :							DINT := 90;		(*State of charge alarm limit high in percent*)
+	setup_SoC_L_Alarm :							DINT := 20;		(*State of charge alarm limit low in percent*)
+	setup_SoC_LL_Trip :							DINT := 15;		(*Min State of charge in percent, not regarded when in island and not harbor*)
+	setup_SoC_LLL_Trip :						DINT := 8;		(*Absolute minimum state of charge*)
+	
+	setup_Battery_SoC_Offline_L_Alarm : 		DINT := 20;		(*Alarm when batteries are offline - encourage charging *)
+	setup_Battery_SoC_Offline_LL_Trip : 		DINT := 8;		(*Enter sleep mode to preserve battery *)
+	setup_Battery_CellVolt_Offline_L_Alarm : 	DINT := 3350;	(*Alarm when cell voltage is low with offline batteries*)
+	setup_Battery_CellVolt_Offline_LL_Trip : 	DINT := 3300;	(*Init sleep mode when batteries are offline and low SE voltage*)
+	
+	setup_Battery_CellVolt_HH_Trip: 			DINT := 4225;	(*mV DC per Series Element (SE). BMS warning level: 4210 mV, Fault trip level: 4225 mV*)
+	setup_Battery_CellVolt_H_Alarm: 			DINT := 4210;	(*mV DC per Series Element (SE). BMS warning level: 4210 mV, Fault trip level: 4225 mV*)
+	setup_Battery_CellVolt_L_Alarm: 			DINT := 3250;	(*mV DC per Series Element (SE). BMS warning level: 3200 mV, Fault trip level: 3000 mV*)
+	setup_Battery_CellVolt_LL_Trip: 			DINT := 3100;	(*mV DC per Series Element (SE). BMS warning level: 3200 mV, Fault trip level: 3000 mV*)
+
+	setup_Battery_CellTemp_HH_Trip: 			DINT := 60;		(*Degree Centigrade. BMS warning temperature: 60*C, Fault Trip temperature: 65*C *)
+	setup_Battery_CellTemp_H_Alarm: 			DINT := 45;		(*Degree Centigrade. BMS warning temperature: 60*C, Fault Trip temperature: 65*C *)
+	setup_Battery_CellTemp_L_Alarm: 			DINT := 14;		(*BMS charge limit starting at 20°C, and is at 2C @ 15°C, and decreasing with lower temperatures. *)
+	setup_Battery_CellTemp_LL_Alarm: 			DINT := 12;		(*BMS charge limit starting at 20°C, and is at 2C @ 15°C, and decreasing with lower temperatures. *)
+	
+	setup_Battery_AmbTemp_HH_Alarm:				DINT := 30;		(*High high ambient room temperature in battery room*)
+	setup_Battery_AmbTemp_H_Alarm:				DINT := 25;		(*High ambient room temperature in battery room*)
+	setup_Battery_AmbTemp_L_Alarm:				DINT := 12;		(*Low ambient room temperature in battery room*)
+	setup_Battery_AmbTemp_LL_Alarm:				DINT := 10;		(*Low low ambient room temperature in battery room*)
+
+	setup_Battery_C :							DINT := 3;		(*Max charge/discharge current as per c-rating*)
+	setup_Battery_C_Rate :						DINT := 128;	(*Current per C*)
+	setup_Battery_PrechargePackA :				INT := 1;		(*Pack number which features the precharge module. Used by state machine*)
+	setup_Battery_PrechargePackB :				INT := 2;		(*Pack number which features the precharge module. Used by state machine*)
+	setup_Energy_per_pack:						REAL := 113;	(*kWh per 22 module battery rack. 5650 Wh per module.*)
+	setup_Battery_FirstCardID : 				INT := 8;		(*Modbus card number in solution center*)
+	setup_Battery_channels_per_pack: 			DINT := 135; 	(*Number of channels read or written to each pack controller*)
+
+	setup_Battery_Max_Voltage: 					DINT:=1000; 	(*Volt DC, per Battery System Specification*)
+	setup_Battery_Min_Voltage: 					DINT:= 720; 	(*Volt DC, per Battery System Specification*)
+	
+	setup_IncDecLowerLimit:						REAL:=950;		(*Lowest allowed value in inc/dec lower limit*)
+	setup_IncDecUpperLimit:						REAL:=1050;		(*Highest allowed value in inc/dec upper limit*)
+END_VAR

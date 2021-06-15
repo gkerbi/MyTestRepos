@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<TaskConfiguration:Task xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TaskConfiguration="http://www.bachmann.info/TaskConfiguration" priority="128">
+  <type xsi:type="TaskConfiguration:CyclicType">
+    <interval value="100"/>
+    <ptp>
+      <interval/>
+    </ptp>
+  </type>
+  <watchdog>
+    <interval/>
+  </watchdog>
+  <programs>
+    <program href="#ref:PRG_HMI"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_IAS"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_Alarms.hmi_Alarms"/>
+  </programs>
+  <programs>
+    <program href="#ref:PRG_Faults.hmi_Faults"/>
+  </programs>
+</TaskConfiguration:Task>
