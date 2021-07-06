@@ -3,7 +3,7 @@ VAR
 	myVar : INT;
 END_VAR
 
-myVar := 45;
+myVar := 46;
 END_PROGRAM
 
 ACTIONS
